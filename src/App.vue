@@ -1,27 +1,28 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <header-bar></header-bar>
+  <side-bar></side-bar>
+  <content></content>
+  <footer-bar></footer-bar>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
-
+import HeaderBar from './components/Content.vue'
+import SideBar from './components/SideBar.vue'
+import Content from './components/Content.vue'
+import FooterBar from './components/Footer.vue'
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    HeaderBar,
+    SideBar,
+    Content,
+    FooterBar,
   }
 })
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

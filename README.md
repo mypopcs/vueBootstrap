@@ -12,7 +12,8 @@
 ```import "jquery"```
 ```import "bootstrap"```
 ```import "bootstrap/dist/css/bootstrap.min.css"```
-
+8. 在 components 里面创建模板
+9. 在 App.vue 中引入模板
 
 
 
