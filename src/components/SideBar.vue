@@ -1,5 +1,7 @@
 <template>
-    <p>sideBar</p>
+    <div id="sideBar">
+        <p>sideBar</p>
+    </div>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'

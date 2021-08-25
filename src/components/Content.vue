@@ -1,5 +1,7 @@
 <template>
-    <p>content</p>
+    <main id="content">
+        <p>content</p>
+    </main>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'

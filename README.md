@@ -14,7 +14,8 @@
 ```import "bootstrap/dist/css/bootstrap.min.css"```
 8. 在 components 里面创建模板
 9. 在 App.vue 中引入模板
-
+10. 安装 scss功能：`npm install scss -s`
+11. 在 main.ts 引入 scss 文件
 
 
 
